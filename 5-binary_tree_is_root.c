@@ -10,10 +10,19 @@
 int binary_tree_is_root(const binary_tree_t *node)
 {
 	if (node == NULL)
+<<<<<<< HEAD
 		return 0;
 
 	if (node->parent == NULL)
 		return 1;
 
 	return 0;
+=======
+		return (0);
+
+	if (node->parent == NULL)
+		return (1);
+
+	return (0);
+>>>>>>> 329c646eb8423de4c0c6ac03301b5ec7fc0cb9cf
 }

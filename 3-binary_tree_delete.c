@@ -17,4 +17,7 @@ void binary_tree_delete(binary_tree_t *tree)
 
 	free(tree);
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 329c646eb8423de4c0c6ac03301b5ec7fc0cb9cf
